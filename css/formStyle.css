@@ -1,0 +1,55 @@
+html
+{
+	background:url(../img/head1.jpg);
+	background-size:auto;
+}
+.form_name
+{
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:25px;
+	font-weight:bold;
+}
+form
+{
+	background:#CD5C5C;
+	font-size:20px;
+	margin-left:455px;
+	margin-top:120px;
+	width:400px;
+	height:290px;
+}
+
+label
+{
+	padding-left:20px;
+}
+.lab3,.lab2,.lab1
+{
+	padding-left:37px;
+}
+.username,.sex,.section,.number,.submit
+{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.kuang1,.kuang3
+{
+	margin-left:45px
+}
+.kuang2
+{
+	margin-left:55px;
+}
+.kuang4
+{
+	margin-left:23px;
+}
+.kuang5
+{
+	margin-left:45px;
+}
+.submit
+{
+	text-align:center;
+}

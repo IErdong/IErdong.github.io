@@ -1,0 +1,80 @@
+#InstitutionalProfile
+{
+	height:2800px;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFAF0;
+} 
+#InstitutionalProfile .catlog
+{
+	height:2450px;
+	float:left;
+	width:280px;
+	background-color:#FFF;
+}
+#InstitutionalProfile .catlog .catl
+{
+	padding-right:40px;
+}
+#InstitutionalProfile .catlog .catlo
+{
+	list-style-type:none;
+	padding-top:5px;
+	line-height:20px;
+	list-style-image: url(../img/0.png);/* 没有办法消除主css的li元素对此页面的影响，所以，改成一个不存在的图片 */
+	
+	width:200px;
+	font-family:"Microsoft yahei", Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	line-height: 35px;
+	border-bottom:2px solid #CD5C5C;
+	padding-bottom:5px;
+	padding-right:2px;
+}
+
+#InstitutionalProfile .catlog .catlo a i
+{
+	float:right;
+	padding-right:2px;
+}
+
+#InstitutionalProfile .setcont
+{
+	float:left;
+	height:2450px;
+	width:720px;
+	background:#FFF;
+}
+#InstitutionalProfile .setcont .setconttitle
+{
+	font-family:"Microsoft yahei", Tahoma, Geneva, sans-serif;
+	height:30px;
+	width:300px;
+	font-size:20px;
+	margin-left:30px;
+	/* margin-top:px; */
+
+	font-weight:bolder;
+	border-bottom:4px solid #CD5C5C;
+	padding-top:28px;
+}
+
+#InstitutionalProfile .setcont .setconttext
+{
+	font-family:"宋体","Microsoft yahei", Tahoma, Geneva, sans-serif;
+	height:30px;
+	font-size:17px;
+	margin-left:30px;
+	margin-top:20px;
+	padding-right:30px;
+	line-height:25px;
+}
+
+.chengli_intro
+{
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	text-align:center;
+}

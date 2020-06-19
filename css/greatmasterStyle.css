@@ -1,0 +1,280 @@
+#greatmasters  /* 整个大师风采的内容 */
+{
+	height:2300px;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFAF0;
+} 
+#greatmasters .inner
+{
+/* 定义公共类inner，用来放置内容区，内容区宽度固定，居中。 */
+	/* height:1000px;
+	background-color: #FFFACD; */
+}
+
+#greatmasters .inner .master1 .ptitle  /* 传道不倦区 */
+{
+	font-family:"宋体";
+	font-size:20px;
+	font-weight:bolder;
+	color:red;
+	border-bottom:2px solid red;
+	padding-top:28px;
+	padding-left:5px;
+}
+
+#greatmasters .inner .master1 .pic_intro
+{
+	height:400px;
+}
+#greatmasters .inner .master1 .pic
+{
+	width:340px;   /* 图片大小是340px*344px */
+	height:400px;
+	/* background-color:#FFFACD; */
+	float:left;
+	/* border-top:4px solid #FFA07A; */
+}
+#greatmasters .inner .master1 .pic img
+{
+	top:30px;
+}
+#pic_1_intro_sign1
+{
+	/* width:16px;
+	height:15px; */
+	float:left;
+	padding-left:70px;
+	padding-top:30px;
+}
+#pic_1_intro_sign2
+{
+	/* width:16px;
+	height:15px; */
+	float:left;
+	padding-top:30px;
+}
+
+#greatmasters .inner .master1 .pic .pic_1_intro
+{
+/* 	width:150px;
+	height:15px; */
+	float:left;
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	/* padding-right:0px; */
+	line-height:15px;
+	padding-top:30px;
+}
+
+#greatmasters .inner .master1 .picIntro
+{
+	width:660px;
+	height:400px;
+	background-color:#FFFACD;
+	float:left;
+	border-top:4px solid #FFA07A;
+}
+
+#greatmasters .inner .master1 .picIntro .Introtext
+{
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	padding-left:40px;
+	padding-right:40px;
+	line-height:35px;
+}
+#greatmasters .inner .master1 .works1/* 李作品区 */
+{
+	/* float:left; */
+	height:22.67px;
+	font-family:"宋体";
+	font-size:20px;
+	font-weight:bolder;
+	color:red;
+	border-bottom:2px solid red;
+	padding-top:28px;
+}
+#greatmasters .inner .master1 .works1 .workstitle
+{
+	padding-left:5px;
+	float:left;
+}
+#greatmasters .inner .master1 .more
+{
+	float:left;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:740px;
+	padding-top:5px;
+}
+#greatmasters .inner .master1 .master_works
+{
+	height:465px;
+}
+#greatmasters .inner .master1 .master_works .master_works_1
+{
+	float:left;
+	padding-top:30px;
+	padding-left:40px;
+}
+#greatmasters .inner .master1 .master_works_1 p,.master_works_2 p
+{
+	height:15px;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:55px;
+}
+#greatmasters .inner .master1 .master_works .master_works_2
+{
+	float:left;
+	padding-top:30px;
+	padding-left:40px;
+}
+/* #greatmasters .inner .master1 
+{
+	height:15px;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:70px;
+} */
+#greatmasters .inner .master1 .master_works .master_works_3
+{
+	float:left;
+	padding-left:40px;
+	padding-top:30px;
+	/* padding-right:40px; */
+}
+#greatmasters .inner .master1 .master_works_3 p
+{
+	height:15px;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:0px;
+}
+#greatmasters .inner .master1 .master_works .master_works_4
+{
+	float:left;
+	padding-left:40px;
+	padding-top:24px;
+	padding-right:40px;
+}
+#greatmasters .inner .master1 .master_works_4 p
+{
+	height:15px;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:40px;
+}
+#greatmasters .inner .master2 .ptitle
+{
+	font-family:"宋体";
+	font-size:20px;
+	font-weight:bold;
+	color:red;
+	border-bottom:2px solid red;
+	padding-left:5px;
+}
+
+#greatmasters .inner .master2 .pic
+{
+	width:340px;
+	height:484px;
+	float:left;
+	padding-left:30px;
+	padding-top:30px;
+}
+#greatmasters .inner .master2 .picIntro
+{
+	width:630px;
+	height:510px;
+	background-color:#FFFACD;
+	float:left;
+	border-top:4px solid #FFA07A;
+}
+
+#greatmasters .inner .master2 .picIntro .Introtext
+{
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	padding-left:40px;
+	padding-right:40px;
+	line-height:35px;
+}
+#pic_1_intro_sign3
+{
+	/* width:16px;
+	height:15px; */
+	float:left;
+	padding-left:70px;
+	padding-top:60px;
+}
+#pic_1_intro_sign4
+{
+	/* width:16px;
+	height:15px; */
+	float:left;
+ 	padding-top:60px;
+}
+#greatmasters .inner .master2 .pic .pic_1_intro
+{
+/* 	width:150px;
+	height:15px; */
+	float:left;
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	/* padding-right:0px; */
+	line-height:15px;
+ 	padding-top:30px; 
+}
+#greatmasters .inner .master2 .works2/* 龙作品区 */
+{
+	width:1000px;
+	height:22.67px;
+	font-family:"宋体";
+	font-size:20px;
+	font-weight:bolder;
+	color:red;
+	border-bottom:2px solid red;
+	padding-top:28px;
+	float:left;
+}
+#greatmasters .inner .master2 .works2 .workstitle
+{
+	padding-left:5px;
+	float:left;
+}
+#greatmasters .inner .master2 .more
+{
+	float:left;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:760px;
+	padding-top:5px;
+}
+
+#greatmasters .inner .master2 .master_works .master_works_2,.master_works_3,.master_works_5,.master_works_6
+{
+	float:left;
+	padding-top:30px;
+	padding-left:30px;
+}
+
+#greatmasters .inner .master2 .master_works .master_works_1,.master_works_4
+{
+	float:left;
+	padding-top:30px;
+	padding-left:20px;
+}
+#greatmasters .inner .master2 .master_works_1 p,.master_works_2 p,.master_works_3 p ,.master_works_4 p,.master_works_5 p,.master_works_6 p
+{
+	height:15px;
+	font-family:"宋体";
+	font-size:15px;
+	padding-left:65px;
+}

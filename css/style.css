@@ -1,0 +1,376 @@
+body{
+/* 去掉浏览器默认的8px的间隙 */
+background-image:url(../img/head.jpg); 
+  margin=0;
+  font-size:0;
+  /* font-family:Verdana,Geneva,Arial,sans-serif; */
+}
+
+div.inner
+{
+/* 定义公共类inner，用来放置内容区，内容区宽度固定，居中。 */
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* 页眉区header */
+div#header
+{
+	height:120px;
+	/* 背景图片默认会重复插入 */
+	background-image:url(../img/head1.jpg); 
+	background-size:contain;
+	/* background-color:#DC143C; */
+}
+
+div#header .inner .head_title 
+{
+	/* margin-top:50px; */
+	/* font-family:'宋体',Verdana,Geneva,Arial,sans-serif;
+	font-size:50px;
+	font-weight:bold;
+	
+	padding-left:50px;
+	color:white; */
+	/* border-left:10px; */
+	padding-top:25px;
+	background: url(../img/titletag.jpg) no-repeat 0 0;
+	background-size:cover;
+    width: 500px;
+    height: 100px;
+}
+
+div#header .inner .head_search .keywordinput
+{
+	margin-left:200px;
+	width: 28px;
+    height: 23px;
+	border:0px;
+	margin-top:20px;
+}
+div#header .inner .head_search .search
+{
+	margin-top:20px;
+	border-left:200px;
+	background: url(../img/search.png) no-repeat 0 0;
+    width: 28px;
+    height: 23px;
+	border:0px;/* 使边框为零就看不见边框了 */
+	cursor:pointer;/* 点击显示光标光标呈现为指示链接的指针（一只手） */
+}
+}
+
+/* 导航区nav */
+div.navigationBar .optionList .nav-item
+{
+	/* font-size: 16px; */
+    /* font-weight: normal; */
+    /* color: #fff; */
+}
+#nav{ background-color:	#CD5C5C;}
+
+.navigationBar .optionList /**导航栏高度**/
+{ 
+	height:41px;
+	/* display:block; */ 
+	margin: 0; 
+	padding: 0;
+} 
+.optionList * 
+{
+	margin: 0; 
+	padding: 0;
+}
+.optionList .nav-item 
+{ 
+	display:inline-block; /* 将元素显示为行内块状元素，设置该属性后，其他的行内块级元素会排列在同一行 */ 
+	vertical-align:bottom;/* 使元素底部对齐 */
+}
+.navigationBar .optionList li.nav-item a /*导航字体样式*/
+{ 	
+	font-family:"Microsoft Yahei";
+	font-size:16px; 
+	font-weight:normal; 
+	color:#fff;
+	display:block;	
+}    
+.navigationBar .optionList li.nav-item a:hover/**鼠标经过或当前选中时样式**/
+{ 
+	background:#A52A2A;
+}   	
+.navigationBar .optionList li.nav-item a span.option /**导航栏目高度与边距**/
+{
+	padding:0 70px; 
+	height:41px; 
+	line-height:41px;
+}   
+
+/* #selected
+{
+	background:#A52A2A;
+} */
+
+/* 照片区 */
+div#photo
+{
+	height:400px;
+	background: url(../img/photo_back.jpg) no-repeat center 0;
+	background-size:cover;/* #FAFAD2 */
+	/* background-color: #FFFACD */ /* #B22222 */;
+	/* background-image:url(../img/1.jpg); */
+} 
+
+div#photo .inner .container-1 .pic
+{
+	width:1000px;
+	height:350px;
+	visibility:visible;
+}
+
+div#photo .inner .container-1 .pic .pic-1
+{
+	padding-top:25px;
+}
+/* 新闻和通知版块 */
+div#news_inform
+{
+	height:/* 276 */380px;
+	background-color:#FFFAF0;
+}
+
+/* 新闻栏 */
+
+div#news_inform div.inner div.container-2
+{
+	/* border-top:4px solid #FFA07A; */
+	/* background-color:#FFFACD; */
+	height:380px;
+}
+div#news_inform div.inner div.container-2 .news
+{
+	/* margin-left:25px;
+	margin-right:25px; */
+	width:500px;
+	height:312px;
+	background-color:#FFFACD;
+	/* 布局的关键代码，浮动元素 */
+	float:left;
+	/* 下边框，3个属性的缩写 */
+	border-top:4px solid #FFA07A;
+	border-bottom:4px solid #FFA07A;
+	
+}
+
+/* div#news_inform div.inner div.container-2 .title1
+{
+	height:57px;
+} */
+/* div#news_inform .huajiao
+{
+	position:abso1ute;
+	z-index:10000;
+	margin-top:-55px;
+}
+div#news_inform .huajiao2
+{
+	position:abso1ute;
+	z-index:10000;
+	margin-left:80px;
+	margin-top:-60px;
+} */
+div#news_inform div.inner div.container-2 .title1 .title1_text
+{
+	/* height:20px; */
+	font-family:"宋体";
+	font-size:20px;
+	font-weight: bold;
+	color:red;
+	padding-left:12px;
+	padding-top:30px;
+	/* padding-bottom:16px; */
+	border-bottom:2px solid red;
+	position:relative;
+/* 	background-color:#FFFACD; */
+}
+
+div#news_inform div.inner div.container-2 .news .news_title
+{
+	font-size:20px;
+	color:#F4A460;
+	padding-left:12px;
+}
+
+div#news_inform div.inner div.container-2 .news .news_content
+{
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	padding-left:12px;
+}
+
+/* 通知栏 */
+
+div#news_inform div.inner div.container-2 .inform
+{
+	width:500px;
+	height:312px;
+	background-color:#FFFACD;
+	float:left;
+	border-top:4px solid #FFA07A;
+	border-bottom:4px solid #FFA07A;
+}
+
+div#news_inform div.inner div.container-2 .inform .inform_title
+{
+	font-size:20px;
+	color:#F4A460;
+	padding-left:12px;
+}
+
+div#news_inform div.inner div.container-2 .inform .inform_content
+{
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	padding-left:12px;
+}
+
+div#news_inform div.inner div.container-2 .inform .inform_content.inform_cont
+{
+	list-style-type:none;
+}
+
+/* #nav */ ul{padding-right:5px;}
+li{
+list-style-type:none;
+padding-right:30px;
+padding-top:5px;
+list-style-image: url(../img/sign.jpg);
+line-height:20px;
+}
+
+.introtext
+{
+	padding-top:2px;
+	
+}
+/* 人物栏 */
+div#personage
+{
+	height:387.33px;
+	/* 背景的缩写，4个属性的缩写 */
+	background:#FFFAF0;
+}
+
+
+div#personage div.inner div.container-3 .title1 .title1_text
+{
+	font-family:"宋体";
+	font-size:20px;
+	font-weight: bold;
+	color:red;
+	padding-left:12px;
+	padding-top:30px;
+	border-top:30px;
+	border-bottom:2px solid red;
+/* 	background-color:#FFFACD; */
+	
+}
+
+div#personage div.inner div.container-3 .pphoto
+{
+	width:344px;
+	height:272px;
+	/* background-color:#FFFACD; */
+	background: url(../img/李映明.jpg) no-repeat center 0;
+	background-size:cover;
+	/* 布局的关键代码，浮动元素 */
+	float:left;
+	/* 下边框，3个属性的缩写 */
+	border-top:4px solid #FFA07A;
+	border-bottom:6px solid #FFA07A;
+}
+
+div#personage div.inner div.container-3 .pcont
+{
+	width:656px;
+	height:272px;
+	background-color:#FFFACD;
+	/* 布局的关键代码，浮动元素 */
+	float:left;
+	/* 下边框，3个属性的缩写 */
+	border-top:4px solid #FFA07A;
+	border-bottom:6px solid #FFA07A;
+}
+
+div#personage div.inner div.container-3 .pcont .personintro_title
+{
+	font-size:20px;
+	color:#F4A460;
+	padding-left:12px;
+	padding-top:10px;
+}
+
+div#personage div.inner div.container-3 .pcont .personintro_content
+{
+	font-family:"宋体";
+	font-size:15px;
+	color:black;
+	padding-left:40px;
+	padding-right:40px;
+	line-height:35px;
+}
+
+/* 页脚区 */
+div#footer
+{
+	height:120px;
+	background-image:url(../img/head1.jpg); 
+	background-size:contain;
+	/* 背景的缩写，4个属性的缩写 */
+	/* background:#FFFAF0; */
+}
+div#footer .inner .container-4 .associationInformation
+{
+	font-family:"宋体";
+	font-size:15px;
+	font-weight:bold;
+	color:#FFFAF0;
+	padding-left:12px;
+	overflow:hidden;
+}
+.connect
+{
+	width:500px;
+	height:120px;
+	float:left;
+}
+div#footer .inner .container-4 .associationInformation .address
+{padding-top:28px;
+padding-left:20px;}
+div#footer .inner .container-4 .associationInformation .principle
+{padding-top:12px;
+padding-left:20px;}
+div#footer .inner .container-4 .associationInformation .number
+{padding-top:12px;
+padding-left:20px;}
+
+div#footer .inner .container-4 .associationInformation .officialAccount
+{
+	padding-right:5px;
+	float:left;
+}
+div#footer .inner .container-4 .associationInformation .officialAccount img
+{
+	padding-top:28px;
+	padding-left:300px;
+}
+
+a{ text-decoration:none} 
+a:hover
+{
+	text-decoration:none;
+	color:red;
+	bodyalink="red";
+}
